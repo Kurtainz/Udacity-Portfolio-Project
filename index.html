@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Portfolio of Kurt Corbett</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="Bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/styles2.css">
+	<link href="https://fonts.googleapis.com/css?family=Titillium+Web:200,300" rel="stylesheet">
+	<script src="https://use.fontawesome.com/12b34b3018.js"></script>
+</head>
+<body>
+
+
+<div class="container">
+
+	<header class="row">
+		<div class="col-xs-6 col-md-6">
+			<img class="img-responsive head-image" src="assets/Wizard.svg" alt="Wizard hat">
+		</div>
+		<div class="col-xs-6 col-md-6 text-right">
+			<h1>kurt corbett</h1>
+			<h2>front-end wizard</h2>
+		</div>
+	</header>
+
+	
+	<section class="row">
+		<div class="col-md-12">
+			<hr>
+		</div>
+	</section>
+	
+<!-- Main image including modal (modal code at the bottom) -->
+	<section class="row">
+		<div class="col-md-12">
+
+			<picture data-toggle="modal" data-target="#myModal">
+				<source media="(max-width: 600px)" srcset="assets/HTMLPic_small.png">
+				<source media="(max-width: 768px)" srcset="assets/HTMLPic_med.png">
+				<source media="(min-width: 769px)" srcset="assets/HTMLPic.png">
+				<img class="img-responsive main-image" src="/home/kurt/Desktop/L33t/Udacity/portfolio/framework/assets/HTMLPic.png" alt="HTML code">
+			</picture>
+
+		</div>
+	</section>
+	
+
+	<section class="row">
+		<div class="col-md-12">
+			<h3>featured</h3>
+		</div>
+	</section>
+
+<!-- Images for grid on lower part of page -->
+	<section class="row grid-text">
+
+		<article class="grid col-sm-6 col-md-4">
+			<img class="section-image img-responsive grid-image" src="assets/app_large.png" alt="App Store" />
+		    <h4>app store</h4>
+		    <a class="grid-link" href="http://www.appstore.com">http://www.appstore.com</a>
+		</article>
+			
+		<article class="grid col-sm-6 col-md-4">
+			<img class="section-image img-responsive grid-image" src="assets/sunflower_large.jpg" alt="Sunflowers in field" />
+		    <h4>sunset</h4>
+		    <a class="grid-link" href="https://www.timeanddate.com/sun/">https://www.timeanddate.com/sun/</a>
+		</article>
+			
+		<article class="grid col-sm-6 col-md-4">
+			<img class="section-image img-responsive grid-image" src="assets/bokeh_large.jpg" alt="Raindrops on window" />
+		    <h4>weather</h4>
+		    <a class="grid-link" href="https://www.bbc.co.uk/weather">https://www.bbc.co.uk/weather</a>
+		</article>
+
+	</section>
+	
+
+	<footer class="row">
+		<div class="col-md-12">
+			<p class="footer-name">© kurt corbett</p>
+			<a href="mailto:kurtainz@googlemail.com" class="fa fa-envelope-o fa-2x footer-links" aria-hidden="true"></a>
+			<a href="http://www.facebook.com" class="fa fa-facebook-official fa-2x footer-links" aria-hidden="true"></a>
+			<a href="http://www.twitter.com" class="fa fa-twitter fa-2x footer-links" aria-hidden="true"></a>
+			<a href="http://www.linkedin.com" class="fa fa-linkedin fa-2x footer-links" aria-hidden="true"></a>
+		</div>
+	</footer>
+
+
+<!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">my portfolio page</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="assets/CSS_Code.jpeg" alt="CSS code">
+                    <p>This was my first project in this class. I learned a lot about HTML, CSS and Bootstrap.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="Bootstrap/js/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="Bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

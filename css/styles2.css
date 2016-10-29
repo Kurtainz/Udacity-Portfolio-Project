@@ -1,0 +1,125 @@
+body {
+	font-family: "Titillium Web", sans-serif;
+	color: rgb(128, 128, 128);
+}
+
+h1 {
+	font-size: 28px;
+	font-weight: 100;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-size: 18px;
+	text-transform: uppercase;
+}
+
+h3 {
+	font-size: 40px;
+	margin-bottom: 20px;
+	text-transform: capitalize;
+}
+
+h4 {
+	color: rgba(128, 128, 128, 0.5);
+	text-transform: capitalize;
+	font-size: 40px;
+}
+
+footer {
+	font-size: 20px;
+	margin-top: 10px;
+}
+
+.head-image {
+	width: 100px;
+	height: 100px;
+}
+
+.main-image {
+	width: 100%;
+}
+
+.main-image:hover {
+	cursor: pointer;
+}
+
+.grid {
+	margin-bottom: 20px;
+}
+
+.grid-image {
+	width: 360px;
+	height: 202px;
+	margin: 0 auto 30px;
+}
+
+.grid-text {
+	text-align: center;
+}
+
+.grid-link {
+	font-size: 20px;
+}
+
+.footer-name {
+	font-size: 25px;
+	display: inline;
+	margin-right: 10px;
+	text-transform: capitalize;
+}
+
+.footer-links {
+	color: black;
+	text-decoration: none;
+}
+
+.footer-links:hover {
+	text-decoration: none;
+	color: black;
+}
+
+@media screen and (min-width: 500px) and (max-width: 767px) {
+	
+	.section-image {
+		width: 80%;
+		height: 100%;
+	}
+
+}
+
+@media screen and (min-width: 550px) {
+	
+	h1 {
+		font-size: 35px;
+	}
+
+}
+
+@media screen and (min-width: 768px) {
+	
+	h1 {
+		font-size: 50px;
+	}
+	
+	h2 {
+		font-size: 25px;
+	}
+
+	h4 {
+		font-size: 30px;
+	}
+
+}
+
+@media screen and (min-width: 992px) {
+	
+	h1 {
+		font-size: 60px;
+	}
+
+	h2 {
+		font-size: 30px;
+	}
+
+}
